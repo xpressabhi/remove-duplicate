@@ -1,6 +1,6 @@
 # remove-duplicate
 
-> Returns true or false based upon input
+> Returns array after removing duplicates.
 
 
 ## Contributors ✨
