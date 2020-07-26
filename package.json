@@ -1,6 +1,6 @@
 {
   "name": "remove-duplicate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Removing duplicate item from array",
   "main": "index.js",
   "scripts": {

@@ -30,7 +30,7 @@ $ npm install --save remove-duplicate
 
 ## Usage
 
-Works with integers.
+Works with Array
 
 
 ```js
