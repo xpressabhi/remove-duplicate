@@ -40,9 +40,9 @@ OR;
 
 const removeDuplicate = require('remove-duplicate'); // server
 
-console.log(removeDuplicate(1,1)); //=> true
-console.log(removeDuplicate(1,2)); //=> false
-console.log(removeDuplicate([],[])); //=> true
+console.log(removeDuplicate([])); //=> []
+console.log(removeDuplicate([1,1,1,1,1])); //=> [1]
+console.log(removeDuplicate([1,2,3,4,5])); //=> [1,2,3,4,5]
 
 ```
 
