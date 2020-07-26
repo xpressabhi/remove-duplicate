@@ -1,10 +1,10 @@
 {
   "name": "remove-duplicate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Removing duplicate item from array",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/xpressabhi/remove-duplicate/issues"
   },
-  "homepage": "https://github.com/xpressabhi/remove-duplicate#readme"
+  "homepage": "https://github.com/xpressabhi/remove-duplicate#readme",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
 }

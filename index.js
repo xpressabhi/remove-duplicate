@@ -8,5 +8,9 @@
 'use strict';
 
 module.exports = function removeDuplicate(array) {
-  return [...new Set(array)]
+  if (Array.isArray(array)) {
+    return [...new Set(array)]
+  } else {
+    throw new Error('Expected Array as input');
+  }
 };
